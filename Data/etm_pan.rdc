@@ -1,0 +1,26 @@
+file format : IDRISI Raster A.1
+file title  : Hong Kong Landsat Panchromatic Band
+data type   : byte
+file type   : binary
+columns     : 4642
+rows        : 3804
+ref. system : utm-49n
+ref. units  : m
+unit dist.  : 1.0000000
+min. X      : 785707.5000000
+max. X      : 855337.5000000
+min. Y      : 2444842.5000000
+max. Y      : 2501902.5000000
+pos'n error : unknown
+resolution  : 15.0000000
+min. value  : 0
+max. value  : 161
+display min : 18
+display max : 73
+value units : unknown
+value error : unknown
+flag value  : 0
+flag def'n  : none
+legend cats : 0
+lineage     : 
+lineage     : 
