@@ -1,6 +1,6 @@
 library(raster)
 
-# Load Landsat 8 images
+# Load Landsat images
 pan <- raster("Data/etm_pan.rst")
 etm2 <- raster("Data/etm2.rst")
 etm3 <- raster("Data/etm3.rst")
