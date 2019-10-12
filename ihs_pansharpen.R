@@ -4,7 +4,7 @@ library(raster)
 pan <- raster("Data/etm_pan.rst")
 etm2 <- raster("Data/etm2.rst")
 etm3 <- raster("Data/etm3.rst")
-etm4 <- raster("Data/etm_pan.rst")
+etm4 <- raster("Data/etm4.rst")
 
 # Resample the Images to the Panchromatic Band's resolution
 etm2_resample <- resample(etm2, pan, method = "bilinear")
