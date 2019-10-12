@@ -1,10 +1,10 @@
 library(raster)
 
 # Load Landsat 8 images
-pan <- raster("E:/OneDrive/Documents/School_Work/Clark/Intro to RS/Chap1-4/etm_pan.rst")
-etm2 <- raster("E:/OneDrive/Documents/School_Work/Clark/Intro to RS/Chap1-4/etm2.rst")
-etm3 <- raster("E:/OneDrive/Documents/School_Work/Clark/Intro to RS/Chap1-4/etm3.rst")
-etm4 <- raster("E:/OneDrive/Documents/School_Work/Clark/Intro to RS/Chap1-4/etm4.rst")
+pan <- raster("Data/etm_pan.rst")
+etm2 <- raster("Data/etm2.rst")
+etm3 <- raster("Data/etm3.rst")
+etm4 <- raster("Data/etm_pan.rst")
 
 # Resample the Images to the Panchromatic Band's resolution
 etm2_resample <- resample(etm2, pan, method = "bilinear")
