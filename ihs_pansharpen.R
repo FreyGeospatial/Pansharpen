@@ -31,13 +31,3 @@ ihs_stack <- stack(etm2_d, etm3_d, etm4_d)
 
 # plot the composite image
 plotRGB(ihs_stack, r = 3, g = 2, b = 1, stretch = "lin")
-
-# increase spectral contrast
-d2 <- d*2
-etm2_d2 <- d2 + etm2_resample
-etm3_d2 <- d2 + etm3_resample
-etm4_d2 <- d2 + etm4_resample
-ihs_stack2 <- stack(etm2_d2, etm3_d2, etm4_d2)
-writeRaster(etm4_d2, "Data/etm2_d2.rst", overwrite=T)
-writeRaster(etm4_d3, "Data/etm3_d2.rst", overwrite=T)
-writeRaster(etm4_d4, "Data/etm4_d2.rst", overwrite=T)
